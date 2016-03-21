@@ -1,0 +1,78 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  background: url('../images/background.jpeg')center center no-repeat;
+  background-size: cover;
+}
+
+.container-fluid{
+  color: white;
+  background-color: rgba(0, 56, 115, 1);
+  h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .nav-btns{
+    display: inline-block;
+    margin-top: 15px;
+    float: right;
+    a{
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      padding: 6px;
+      margin-left: 8px;
+      background-color: rgba(220, 31, 29, 1);
+      color: white;
+    }
+  }
+}
+
+.container{
+  margin-top: 30px;
+  .nail{
+    text-align: center;
+    height: 575px;
+   form{
+     display: inline-block;
+     width: 55px;
+     margin-right: 10px;
+     #quantity{
+       width: 100%;
+    }
+   }
+   select{
+     margin-right: 10px;
+   }
+    #pic{
+      border-radius: 180px;
+      border: 2px solid rgba(220, 31, 29, 1);
+    }
+  }
+}
+
+footer{
+  text-align: center;
+  background-color: rgba(0, 56, 115, 1);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
